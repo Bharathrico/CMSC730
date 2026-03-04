@@ -19,7 +19,7 @@ const int sensorPin = 15;
 bool waitingForKey = false;
 
 // random init
-int randInput;
+int randInput=random(2300);
 
 // initializing success condition
 bool success = false;
